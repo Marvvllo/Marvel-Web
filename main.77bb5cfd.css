@@ -71,7 +71,7 @@ nav a::after {
   transform: scale(0, 1);
   transition: transform 150ms ease-in-out;
 }
-nav a:hover::after {
+nav a:hover::after, nav a:focus::after {
   transform: scale(1, 1);
 }
 
@@ -164,7 +164,8 @@ nav a:hover::after {
   transform: translateY(125%);
 }
 
-.hero-link:hover {
+.hero-link:hover,
+.hero-link:focus {
   background: var(--clr-neutra-transp);
   outline: 0.1em solid var(--clr-primary);
   box-shadow: inset 0px 0px 5px red;
