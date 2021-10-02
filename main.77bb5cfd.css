@@ -1,7 +1,7 @@
 :root {
   --clr-primary: #ee171f;
   --clr-neutral: #202020;
-  --clr-neutra-transp: rgba(32, 32, 32, 0.5);
+  --clr-neutral-transp: rgba(32, 32, 32, 0.5);
   --clr-light: #fff;
 }
 
@@ -171,7 +171,7 @@ nav a:hover::after, nav a:focus::after {
 
 .hero-link:hover,
 .hero-link:focus {
-  background: var(--clr-neutra-transp);
+  background: var(--clr-neutral-transp);
   outline: 0.1em solid var(--clr-primary);
   box-shadow: inset 0px 0px 5px red;
 }
